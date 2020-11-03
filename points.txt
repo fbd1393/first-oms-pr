@@ -1,0 +1,9 @@
+1- Start a django project with command (python django-admin startproject projectname).
+2- After that check the settings file.
+3- Create apps with command (python manage.py startapp appname).
+4- Add the app to the settings file.
+5- Make a url file for the app.
+6- Include the app's url file to the main url file.
+    for doing this we need to import Include from django.urls and import (from . import views)
+7- Add the views tha we want in views file. Then make a path for any views that we have.
+8- Import render from django.shortcuts or import HttpResponse from django.http to the views file.
