@@ -7,3 +7,24 @@
     for doing this we need to import Include from django.urls and import (from . import views)
 7- Add the views tha we want in views file. Then make a path for any views that we have.
 8- Import render from django.shortcuts or import HttpResponse from django.http to the views file.
+9- Make and add template to the views.
+10- Django template's path structure in apps is...
+    --appname
+    ----templates
+    -------appname
+    ----------template-name1.html
+    ----------template-name2.html
+    ----------template-name3.html
+
+11- Static folder is a file that we store all of our images and styles and js,...
+    Static folder is in root directory 
+    after we create static folder we need to add it in settings.py file
+    
+    STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static')
+    ]
+    static
+    --styles
+    --js
+    --images
+    --,...
