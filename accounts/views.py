@@ -7,8 +7,8 @@ def home(request):
 
 
 def products(request):
-    return HttpResponse('Products')
+    return render(request, 'accounts/customer.html')
 
 
 def customers(request):
-    return HttpResponse('Customers')
+    return render(request, 'accounts/products.html')

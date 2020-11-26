@@ -28,3 +28,9 @@
     --js
     --images
     --,...
+
+12- For using scss in whit python we have 2 ways 
+    a- we can use extensions like sass live server for vscode.
+    b- use pip install libsass for adding the libsass package.
+
+ 
